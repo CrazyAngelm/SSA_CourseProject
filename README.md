@@ -5,29 +5,28 @@
 This repository contains the Architectural Design Document (ADD) for the Computer Vision (CV) Service (Variation X3), targeting edge deployment on single-board computers. The project defines a flexible, configurable service to process RTSP streams and media files with computer vision pipelines.
 
 ## Repository Structure
-├── fig/
-│ ├── context_diagram.svg # System context diagram
-│ ├── container_diagram.svg # C4 container view
-│ ├── component_diagram.svg # Component breakdown inside the CV Service
-│ ├── live_sequence.svg # Sequence diagram for live RTSP processing
-│ ├── batch_sequence.svg # Sequence diagram for batch upload processing
-│ ├── ota_sequence.svg # Sequence diagram for OTA update and rollback
-│ ├── deployment_multi_sbc.svg # Deployment view with two SBC nodes
-│ └── ... # Other diagram assets
-├── main.tex # LaTeX source for the Architectural Design Document
-├── Course_Project_Draft_Computer_Vision_Service_X3.pdf
-├── Course_Project_SSA.pdf # Submission artifact
-├── deployment_diagram.svg # Original deployment diagram (single node)
-├── README.md # This file
-└── .gitattributes
+fig/
+	context_diagram.svg # System context diagram
+	container_diagram.svg # C4 container view
+	component_diagram.svg # Component breakdown inside the CV Service
+	live_sequence.svg # Sequence diagram for live RTSP processing
+	batch_sequence.svg # Sequence diagram for batch upload processing
+	ota_sequence.svg # Sequence diagram for OTA update and rollback
+	deployment_multi_sbc.svg # Deployment view with two SBC nodes
+	... # Other diagram assets
+main.tex # LaTeX source for the Architectural Design Document
+Course_Project_Draft_Computer_Vision_Service_X3.pdf
+Course_Project_SSA.pdf # Submission artifact
+deployment_diagram.svg # Original deployment diagram (single node)
+README.md # This file
+.gitattributes
 
 
 ## Building the Document
 1. Ensure you have LaTeX installed (e.g., TeX Live).
 2. From the repository root, run:
-   ```bash
-   pdflatex main.tex
-```
+bash
+pdflatex main.tex
 3. The final PDF main.pdf will be generated.
 
 ## Contents
